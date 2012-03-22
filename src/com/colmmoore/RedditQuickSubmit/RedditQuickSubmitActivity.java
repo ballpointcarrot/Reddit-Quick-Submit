@@ -94,7 +94,7 @@ public class RedditQuickSubmitActivity extends Activity {
 		
 		photo = (Bitmap) data.getExtras().get("data"); 
 	
-		Intent cameraSubmit = new Intent(RedditQuickSubmitActivity.this, SubmitImageActivity.class);
+		Intent cameraSubmit = new Intent(RedditQuickSubmitActivity.this, SubmitCameraImageActivity.class);
 		startActivity(cameraSubmit);
 		
 	    }
